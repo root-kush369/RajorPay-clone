@@ -25,22 +25,22 @@ Experience a Razorpay-inspired UI! 💸
 
 ## 📂 Project Structure
 Razorpay-Clone/
-│
-├── dist/                 # Built files for deployment 📦
-│   ├── index.html        # Optimized HTML file 📄
-│   ├── styles.css        # Purged Tailwind CSS 🎨
-│   └── assets/           # Optimized images and assets 🖼️
-├── src/                  # Source files 📁
-│   ├── input.css         # Tailwind CSS input file (if applicable) 🎨
-│   └── index.html        # Main HTML file 📄
-├── images/               # Static assets (e.g., logo.svg, hero-illustration.jpg) 🖼️
-├── styles.css            # Tailwind CSS output file 🎨
-├── package.json          # Dependency manifest 📦
-├── package-lock.json     # Lockfile for exact dependency versions 🔒
-├── tailwind.config.js    # Tailwind CSS configuration ⚙️
-├── postcss.config.js     # PostCSS configuration ⚙️
-├── vite.config.js        # Vite configuration ⚙️
-└── README.md             # Project documentation 📝
+Razorpay-Clone/
+- dist/                    # Built files for deployment 📦
+  - index.html             # Optimized HTML file 📄
+  - styles.css             # Purged Tailwind CSS 🎨
+  - assets/                # Optimized images and assets 🖼️
+- src/                     # Source files 📁
+  - input.css              # Tailwind CSS input file (if applicable) 🎨
+  - index.html             # Main HTML file 📄
+- images/                  # Static assets (e.g., logo.svg, hero-illustration.jpg) 🖼️
+- styles.css               # Tailwind CSS output file 🎨
+- package.json             # Dependency manifest 📦
+- package-lock.json        # Lockfile for exact dependency versions 🔒
+- tailwind.config.js       # Tailwind CSS configuration ⚙️
+- postcss.config.js        # PostCSS configuration ⚙️
+- vite.config.js           # Vite configuration ⚙️
+- README.md                # Project documentation 📝
 
 
 
@@ -50,28 +50,31 @@ Razorpay-Clone/
      git clone https://github.com/root-kush369/Razorpay-Clone.git
 
 2. **Navigate to the Project Directory**:
+     ```bash
      cd Razorpay-Clone
 
-3.  **Install Dependencies**:
+4.  **Install Dependencies**:
+    ```
      npm install
 
-4.  **Start the Development Server**:
+6.  **Start the Development Server**:
+    ```    
      npm run start
   
 🛠️ Technologies Used
-HTML5 📄: Semantic structure for the webpage.
-Tailwind CSS 🎨: Utility-first CSS framework for styling.
-Vite ⚡: Fast development server and build tool.
-Feather Icons 🖌️: Lightweight icons loaded via CDN.
-CSS Animations ✨: Custom keyframes for the companies banner.
+- **HTML5** 📄: Semantic structure for the webpage.
+- **Tailwind CSS** 🎨: Utility-first CSS framework for styling.
+- **Vite** ⚡: Fast development server and build tool.
+- **Feather Icons** 🖌️: Lightweight icons loaded via CDN.
+- **CSS Animations** ✨: Custom keyframes for the companies banner.
 
 
 🔍 How It Works
-Styling: Tailwind CSS processes utility classes (e.g., bg-deepBlue, hover:scale-105) into styles.css via Vite and PostCSS.
-Development: Vite serves the project during development, providing hot reloading for quick iteration.
-Animations: The "Join Razorpay" section features a scrolling banner (companiesbanner) animated with CSS keyframes.
-Icons: Feather Icons are loaded via CDN and rendered with feather.replace().
-Production: Vite builds an optimized dist/ folder with purged CSS and bundled assets.
+- **Styling**: Tailwind CSS processes utility classes (e.g., `bg-deepBlue`, `hover:scale-105`) into `styles.css` via Vite and PostCSS.
+- **Development**: Vite serves the project during development, providing hot reloading for quick iteration.
+- **Animations**: The "Join Razorpay" section features a scrolling banner (`companiesbanner`) animated with CSS keyframes.
+- **Icons**: Feather Icons are loaded via CDN and rendered with `feather.replace()`.
+- **Production**: Vite builds an optimized `dist/` folder with purged CSS and bundled assets.
 
 
 🤝 Contributing
